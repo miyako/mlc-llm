@@ -12,6 +12,7 @@ cmake -A x64 -S . -B build
     -DUSE_METAL=OFF 
     -DUSE_VULKAN=ON 
     -DUSE_CUDA=OFF 
+    -DCMAKE_CXX_FLAGS="/utf-8"
     -DUSE_LLVM={llvm-config.exe}
 ```
 
@@ -26,7 +27,7 @@ cmake -S . -B build_amd \
     -DCMAKE_C_FLAGS="-O3 -march=haswell" \
     -DCMAKE_CXX_FLAGS="-O3 -march=haswell" \
     -DCMAKE_POLICY_VERSION_MINIMUM="3.5" 
-cmake --build build_amd --parallel $(sysctl -n hw.logicalcpu)
+ _amd --parallel $(sysctl -n hw.logicalcpu)
 ```
 
 ## Apple Silicon
