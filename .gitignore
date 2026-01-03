@@ -1,1 +1,4 @@
-a/libmlc_llm.a
+cpp/.build/*
+cpp/mlc_llm.xcodeproj/project.xcworkspace/*
+cpp/mlc_llm.xcodeproj/xcshareddata/xcschemes/*
+cpp/mlc_llm.xcodeproj/xcuserdata/miyako.xcuserdatad/*

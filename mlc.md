@@ -41,3 +41,7 @@ cmake -S . -B build_arm
     -DCMAKE_POLICY_VERSION_MINIMUM=3.5
 cmake --build build_arm --parallel $(sysctl -n hw.logicalcpu)
 ```
+
+## Install
+
+https://llm.mlc.ai/docs/install/mlc_llm.html#install-mlc-packages
