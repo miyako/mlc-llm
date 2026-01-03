@@ -2,3 +2,5 @@ cpp/.build/*
 cpp/mlc_llm.xcodeproj/project.xcworkspace/*
 cpp/mlc_llm.xcodeproj/xcshareddata/xcschemes/*
 cpp/mlc_llm.xcodeproj/xcuserdata/miyako.xcuserdatad/*
+cpp/a/libeigen_lapack_static.a
+cpp/lib/windows64/eigen_lapack_static.lib

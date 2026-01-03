@@ -15,6 +15,8 @@ layout: default
 
 This package includes the runtime only. You need to [install the TVM compiler](https://llm.mlc.ai/docs/install/tvm.html) and [install the MLC LLM python package](https://llm.mlc.ai/docs/install/mlc_llm.html) in order to [compile models](https://llm.mlc.ai/docs/compilation/compile_models.html).
 
+> You can find precompiled models in [mlc-ai/binary-mlc-llm-libs](https://github.com/mlc-ai/binary-mlc-llm-libs).
+
 #### AI Kit compatibility
 
 The API is compatibile with [Open AI](https://platform.openai.com/docs/api-reference/embeddings). 

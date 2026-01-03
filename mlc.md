@@ -45,3 +45,21 @@ cmake --build build_arm --parallel $(sysctl -n hw.logicalcpu)
 ## Install
 
 https://llm.mlc.ai/docs/install/mlc_llm.html#install-mlc-packages
+
+```
+hf download mlc-ai/RedPajama-INCITE-Chat-3B-v1-q4f16_1-MLC \
+    --local-dir {model_folder_path}
+```
+
+```
+python -m mlc_llm gen_config {model_folder_path} \
+    --quantization q4f16_1 \ 
+    --conv-template redpajama_chat \
+    -o {folder_path}
+```
+
+```
+python -m mlc_llm compile {model_folder_path} \
+    --device metal \
+    -o {dylib_path}
+```
